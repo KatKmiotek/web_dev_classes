@@ -97,6 +97,14 @@ Frontend and backend communicate through **HTTP requests** – think of it like 
   - MySQL: Popular relational database
   - MongoDB: Document-based database
   - PostgreSQL: Advanced relational database
+  
+### Cloud Infrastructure
+
+Cloud infrastructure refers to **resources** like 
+- servers 
+- storage 
+- databases
+- networking
 
 ### Web Development Roles
 
@@ -108,6 +116,10 @@ Frontend and backend communicate through **HTTP requests** – think of it like 
   Works on both frontend and backend. Understands the complete web development process. Can build entire web applications.
 - **UI/UX Designer:**  
   Designs user interfaces and experiences. Creates mockups and prototypes. Focuses on usability and aesthetics.
+- **DevOps engineer**
+  Configures infrastructure for application
+- **Project Manager**
+  Communicates with clients regarding required features
 
 ---
 
@@ -171,7 +183,7 @@ Visual Studio Code is a free, powerful code editor developed by Microsoft. It's 
   - Live Server: Automatically refreshes the browser when files change
   - Prettier: Automatically formats code to look neat
   - Auto Rename Tag: Automatically renames paired HTML tags
-  - Bracket Pair Colorizer: Colours matching brackets
+  - Bracket Pair Colorizer: Colors matching brackets
   - HTML CSS Support: Better HTML and CSS completion
 
 - **Installing Extensions:**
