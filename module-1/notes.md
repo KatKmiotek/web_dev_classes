@@ -21,6 +21,9 @@ The frontend (also called "client-side") is everything users see and interact wi
 - Images and text you see
 - Animations and visual effects
 
+**Practice**  
+Visit [airbnb website](https://www.airbnb.co.uk/) and name frontend elements
+
 ---
 
 ## 2. Backend of the Application
@@ -40,7 +43,10 @@ The backend (also called "server-side") is the behind-the-scenes part that users
 - Saving form data to a database
 - Processing payments
 - Sending emails
-- Managing user permissions
+- Returning search results
+
+**Practice**  
+Visit [airbnb website](https://www.airbnb.co.uk/) and identify what functionality is provided by backend
 
 ---
 
@@ -52,7 +58,7 @@ The backend (also called "server-side") is the behind-the-scenes part that users
 - **Communication:** The client requests information, the server responds
 
 **Finding Servers on the Internet**
-- **IP Addresses:** Every device on the internet has a unique address (e.g., `192.168.1.1` or `216.58.194.174`) – like a postal address for computers
+- **IP Addresses:** Every device on the internet has a unique address (e.g., `192.168.1.1` or `216.58.194.174`) – like a postal address for computers [check your IP](https://www.whatsmyip.org/)
 - **Domain Names:** Human-friendly names like `google.com` or `amazon.com`
 - **DNS (Domain Name System):** Translates domain names into IP addresses
 - **The Connection Process:**  
@@ -141,10 +147,12 @@ Built-in browser tools that help developers inspect, debug, and understand web p
 - **Network Tab:**  
   See all requests between the frontend and the backend. Monitor loading times. Identify slow or failed requests.
 - **Sources Tab:**  
-  View and debug JavaScript code. Set breakpoints to pause execution. Step through the code line by line.
+  View and debug JavaScript code.
 
 **Practical Exercise:**  
-Open any website, press `F12`, and explore the Elements tab. Try changing some text or colours!
+1. Open any website, press `F12`, and explore the Elements tab. Try changing some text or colors!
+2. Visit [demo website](https://thinking-tester-contact-list.herokuapp.com/addUser) and try sign up with 3 letters password
+3. Navigate to [gov website](https://www.gov.uk/) and observe how it changes in the mobile viewport
 
 ---
 
@@ -223,7 +231,6 @@ Visual Studio Code is a free, powerful code editor developed by Microsoft. It's 
    - 3 backend features (things happening behind the scenes)
    - How they might communicate (what happens when you click buttons)
 3. Open DevTools and explore the Elements tab
-4. Try to find where the website's main heading is defined in HTML
 
 **VS Code:**
 - Install VS Code and the recommended extensions
