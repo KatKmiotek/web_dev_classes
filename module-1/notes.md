@@ -215,14 +215,7 @@ Visual Studio Code is a free, powerful code editor developed by Microsoft. It's 
 
 ---
 
-**Questions for Discussion:**
-- What websites do you use daily? Can you identify frontend vs backend features?
-- What aspects of web development interest you most?
-- Have you noticed any websites that work particularly well or poorly? Why?
-
----
-
-## Practical Exercise for Next Class
+## Practical Exercise
 
 **Website Analysis Exercise:**
 1. Choose 3 different websites you use regularly
