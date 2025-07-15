@@ -1,5 +1,22 @@
 # Module 2: Intro to HTML
 
+---
+- [Module 2: Intro to HTML](#module-2-intro-to-html)
+  - [Learning Objectives](#learning-objectives)
+    - [1. Introduction to HTML](#1-introduction-to-html)
+    - [2. HTML Document Structure](#2-html-document-structure)
+    - [3. Essential HTML Elements](#3-essential-html-elements)
+    - [Text elements](#text-elements)
+    - [4. Links and Navigation](#4-links-and-navigation)
+    - [5. Images and Media](#5-images-and-media)
+    - [6. HTML Forms Basics](#6-html-forms-basics)
+    - [7. Tables](#7-tables)
+    - [8. Semantic HTML](#8-semantic-html)
+    - [9. HTML Attributes](#9-html-attributes)
+    - [10. Best Practices and Validation](#10-best-practices-and-validation)
+
+---
+
 ## Learning Objectives
 - Understand what HTML is and its role in web development
 - Create basic HTML documents with proper structure
@@ -142,5 +159,4 @@
 - Code organization and indentation
 - Commenting in HTML
 - HTML validation tools
-- Common mistakes to avoid
 - Accessibility considerations
