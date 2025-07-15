@@ -202,7 +202,7 @@ Visual Studio Code is a free, powerful code editor developed by Microsoft. It's 
 **Essential VS Code Setup**
 
 - **Recommended Extensions for Web Development:**
-  - Live Server: Automatically refreshes the browser when files change
+  - Live Preview: Automatically refreshes the browser when files change
   - Prettier: Automatically formats code to look neat
   - Auto Rename Tag: Automatically renames paired HTML tags
   - Bracket Pair Colorizer: Colors matching brackets
