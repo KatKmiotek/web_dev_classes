@@ -82,13 +82,35 @@
 - Linking to external sites
 - Internal page navigation with anchors
 - Email and phone links
+```html
+<a href="https://www.example.com" target="_blank">Visit Example Website</a>
+```
+- `href` specifies the URL.
+- `target="_blank"` opens the link in a new tab.
+
+```html
+<!-- Link to a section with id="about" -->
+<a href="#about">Go to About Section</a>
+
+<!-- Somewhere else in your HTML -->
+<h2 id="about">About Us</h2>
+<p>This is the about section.</p>
+```
+
+```html
+<a href="mailto:someone@example.com">Send Email</a>
+```
 
 ### 5. Images and Media
 - Image element (img)
 - Alt text for accessibility
-- Image formats and when to use them
-- Responsive images basics
-- Figure and figcaption elements
+
+```html
+<img src="http://www.fillster.com/images/pictures/183h.jpg" alt="Dog">
+```
+- `src` specifies the image URL or file path.
+- `alt` provides alternative text for accessibility.
+- `width` and `height` set the image size (optional)
 
 ### 6. HTML Forms Basics
 - Form element and basic structure
