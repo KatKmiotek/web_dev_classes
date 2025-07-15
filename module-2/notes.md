@@ -11,8 +11,6 @@
 ### 1. Introduction to HTML
 - What is HTML? (HyperText Markup Language)
 - HTML's role in the web development stack (structure vs styling vs behavior)
-- Brief history and evolution of HTML
-- HTML5 and modern standards  
 
 **Practice**:
 1. Create folder on Desktop called web-dev
@@ -32,7 +30,7 @@
   - Title element
   - Meta tags (charset, viewport)
   - Link tags for external resources
-- Body section
+- Body section - content will go here
 - Proper document structure and nesting
 
 ### 3. Essential HTML Elements
@@ -43,22 +41,44 @@
 3. Right-click on file > Open in default browser
 
 
-- Text elements
-  - Headings (h1-h6)
+### Text elements
+  - Headings (h1-h6) 
+```html
+<h1>My heading</h1>
+```
   - Paragraphs (p)
+```html
+<p>a little text here</p>
+```
   - Line breaks (br) and horizontal rules (hr)
 - Text formatting
   - Bold (strong) and italic (em)
-  - Inline vs block elements
+```html
+<strong>Important text here</strong>
+<em>Italic text</em>
+```
 - Lists
   - Unordered lists (ul)
   - Ordered lists (ol)
   - List items (li)
-  - Description lists (dl, dt, dd)
+
+```html
+<p>Shopping list</p>
+<ul>
+  <li>fruits </li>
+  <li>water</li>
+</ul>  
+
+
+<p>Shopping list</p>
+<ol>
+  <li>fruits </li>
+  <li>water</li>
+</ol> 
+```
 
 ### 4. Links and Navigation
 - Anchor elements (a)
-- Absolute vs relative URLs
 - Linking to external sites
 - Internal page navigation with anchors
 - Email and phone links
