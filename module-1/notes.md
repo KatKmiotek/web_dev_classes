@@ -2,6 +2,20 @@
 [slides for Module 1](https://docs.google.com/presentation/d/1S7UAtsIWeH-Jw4yvoYcIB1abePk_Ln07ZGi-VyrONro/edit?usp=sharing)
 
 ---
+- [Module 1: Introduction to Web Development](#module-1-introduction-to-web-development)
+  - [1. Frontend of the Application](#1-frontend-of-the-application)
+  - [2. Backend of the Application](#2-backend-of-the-application)
+  - [3. Frontend and Backend Communication](#3-frontend-and-backend-communication)
+  - [4. Technologies and Roles Overview](#4-technologies-and-roles-overview)
+    - [Frontend Technologies](#frontend-technologies)
+    - [Backend Technologies (Examples)](#backend-technologies-examples)
+    - [Cloud Infrastructure](#cloud-infrastructure)
+    - [Web Development Roles](#web-development-roles)
+  - [5. Developer Tools (DevTools)](#5-developer-tools-devtools)
+  - [6. Installing and Setting Up VS Code](#6-installing-and-setting-up-vs-code)
+  - [Practical Exercise](#practical-exercise)
+
+---
 
 ## 1. Frontend of the Application
 
