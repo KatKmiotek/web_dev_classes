@@ -67,7 +67,11 @@
 ```html
 <p>a little text here</p>
 ```
-  - Line breaks (br) and horizontal rules (hr)
+  - Line breaks (br) - self closing tag
+
+```html
+</br>
+```
 - Text formatting
   - Bold (strong) and italic (em)
 ```html

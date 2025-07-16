@@ -20,7 +20,8 @@
 ## 1. Frontend of the Application
 
 **What is Frontend?**  
-The frontend (also called "client-side") is everything users see and interact with in their web browser. Think of it as the "face" of a website or web application.
+The frontend (also called "client-side") is everything users see and interact with in their web browser. Think of it as the "face" of a website or web application.  
+Called UI - User Interface or GUI - Graphical User Interface
 
 **Key Characteristics:**
 - Runs in the user's web browser
@@ -140,6 +141,8 @@ Cloud infrastructure refers to **resources** like
   Configures infrastructure for application
 - **Project Manager**
   Communicates with clients regarding required features
+- **Quality engineer**
+  Validates project's quality
 
 ---
 
