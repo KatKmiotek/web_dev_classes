@@ -4,17 +4,20 @@
 - [Module 2: Intro to HTML](#module-2-intro-to-html)
   - [Learning Objectives](#learning-objectives)
     - [1. Introduction to HTML](#1-introduction-to-html)
-    - [2. HTML Document Structure](#2-html-document-structure)
-    - [3. Essential HTML Elements](#3-essential-html-elements)
-    - [4. Inputs](#4-inputs)
-    - [5. Buttons](#5-buttons)
-    - [6. Links and Navigation](#6-links-and-navigation)
-    - [7. Images and Media](#7-images-and-media)
-    - [8. HTML Forms Basics](#8-html-forms-basics)
-    - [9. Tables](#9-tables)
-    - [10. Semantic HTML](#10-semantic-html)
-    - [11. HTML Attributes](#11-html-attributes)
-    - [12. Best Practices and Validation](#12-best-practices-and-validation)
+    - [2. What is an HTML Tag?](#2-what-is-an-html-tag)
+      - [How Does an HTML Tag Work?](#how-does-an-html-tag-work)
+      - [What Constructs an HTML Tag?](#what-constructs-an-html-tag)
+    - [3. HTML Document Structure](#3-html-document-structure)
+    - [4. Essential HTML Elements](#4-essential-html-elements)
+    - [5. Inputs](#5-inputs)
+    - [6. Buttons](#6-buttons)
+    - [7. Links and Navigation](#7-links-and-navigation)
+    - [8. Images and Media](#8-images-and-media)
+    - [9. HTML Forms Basics](#9-html-forms-basics)
+    - [10. Tables](#10-tables)
+    - [11. Semantic HTML](#11-semantic-html)
+    - [12. HTML Attributes](#12-html-attributes)
+    - [13. Best Practices and Validation](#13-best-practices-and-validation)
 
 ---
 
@@ -25,7 +28,6 @@
 - Implement semantic HTML for better accessibility and SEO
 - Validate and debug HTML code
 
-
 ### 1. Introduction to HTML
 - What is HTML? (HyperText Markup Language)
 - HTML's role in the web development stack (structure vs styling vs behavior)
@@ -35,7 +37,43 @@
 2. Open folder in VS Code
 3. In VS Code create folder module-2
 
-### 2. HTML Document Structure
+### 2. What is an HTML Tag?
+
+An **HTML tag** is a special code used to tell the web browser how to display content on a web page. Tags are the building blocks of every HTML document.
+
+#### How Does an HTML Tag Work?
+
+- **Tags are written inside angle brackets:** `< >`
+- Most tags come in pairs: an **opening tag** and a **closing tag**
+  - The opening tag starts the element, e.g. `<p>`
+  - The closing tag ends the element, e.g. `</p>` (note the `/`)
+- The content goes between the opening and closing tags
+
+**Example:**
+```html
+<p>This is a paragraph.</p>
+```
+- `<p>` is the opening tag for a paragraph
+- `</p>` is the closing tag
+- `This is a paragraph.` is the content
+
+#### What Constructs an HTML Tag?
+
+- **Tag name:** The type of element (e.g. `h1`, `p`, `img`)
+- **Attributes (optional):** Extra information inside the opening tag, like `src` for images or `href` for links
+
+**Example with attributes:**
+```html
+<img src="cat.jpg" alt="A cute cat">
+```
+- `<img>` is the tag name for images
+- `src` and `alt` are attributes that give more details
+
+**Summary:**  
+HTML tags tell the browser what each part of your page is and how it should look or behave. Every visible thing on a web page—headings, paragraphs, images, links—is created using HTML tags.
+
+
+### 3. HTML Document Structure
 **Practice**:
 1. In VS Code in folder module-2 create file called index.html
 2. Type **!** and press return
@@ -51,7 +89,7 @@
 - Body section - content will go here
 - Proper document structure and nesting
 
-### 3. Essential HTML Elements
+### 4. Essential HTML Elements
 
 **Practice**:
 1. Add text in index.html file
@@ -97,7 +135,7 @@
   <li>water</li>
 </ol> 
 ```
-### 4. Inputs
+### 5. Inputs
 - Input elements allow users to enter data into forms.
 - Common types: text, email, password, number, etc.
 
@@ -116,7 +154,7 @@
 - `type="email"` ensures the input is a valid email address.
 - `select` creates a dropdown menu with options.
 
-### 5. Buttons
+### 6. Buttons
 
 - Button elements are used to create clickable buttons in forms or on web pages.
 
@@ -130,7 +168,7 @@
 - `type="submit"` is used to submit a form.
 
 
-### 6. Links and Navigation
+### 7. Links and Navigation
 - Anchor elements (a)
 - Linking to external sites
 - Internal page navigation with anchors
@@ -154,7 +192,7 @@
 <a href="mailto:someone@example.com">Send Email</a>
 ```
 
-### 7. Images and Media
+### 8. Images and Media
 - Image element (img)
 - Alt text for accessibility
 
@@ -165,33 +203,33 @@
 - `alt` provides alternative text for accessibility.
 - `width` and `height` set the image size (optional)
 
-### 8. HTML Forms Basics
+### 9. HTML Forms Basics
 - Form element and basic structure
 - Input types (text, email, password, submit)
 - Labels and their importance
 - Textarea and select elements
 - Form validation basics
 
-### 9. Tables
+### 10. Tables
 - When to use tables (data, not layout)
 - Table structure (table, tr, td, th)
 - Table headers and accessibility
 - Caption element
 
-### 10. Semantic HTML
+### 11. Semantic HTML
 - Importance of semantic markup
 - Structural elements
   - Header, nav, main, article, section, aside, footer
 - Why semantic HTML matters for SEO and accessibility
 - Div vs semantic elements
 
-### 11. HTML Attributes
+### 12. HTML Attributes
 - Common global attributes (id, class, style)
 - Element-specific attributes
 - Boolean attributes
 - Custom data attributes (data-*)
 
-### 12. Best Practices and Validation
+### 13. Best Practices and Validation
 - Code organization and indentation
 - Commenting in HTML
 - HTML validation tools
