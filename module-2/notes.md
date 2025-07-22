@@ -6,7 +6,6 @@
     - [1. Introduction to HTML](#1-introduction-to-html)
     - [2. HTML Document Structure](#2-html-document-structure)
     - [3. Essential HTML Elements](#3-essential-html-elements)
-    - [Text elements](#text-elements)
     - [4. Inputs](#4-inputs)
     - [5. Buttons](#5-buttons)
     - [6. Links and Navigation](#6-links-and-navigation)
@@ -60,7 +59,6 @@
 3. Right-click on file > Open in default browser
 
 
-### Text elements
   - Headings (h1-h6) 
 ```html
 <h1>My heading</h1>
