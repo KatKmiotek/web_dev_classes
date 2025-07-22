@@ -7,13 +7,15 @@
     - [2. HTML Document Structure](#2-html-document-structure)
     - [3. Essential HTML Elements](#3-essential-html-elements)
     - [Text elements](#text-elements)
-    - [4. Links and Navigation](#4-links-and-navigation)
-    - [5. Images and Media](#5-images-and-media)
-    - [6. HTML Forms Basics](#6-html-forms-basics)
-    - [7. Tables](#7-tables)
-    - [8. Semantic HTML](#8-semantic-html)
-    - [9. HTML Attributes](#9-html-attributes)
-    - [10. Best Practices and Validation](#10-best-practices-and-validation)
+    - [4. Inputs](#4-inputs)
+    - [5. Buttons](#5-buttons)
+    - [6. Links and Navigation](#6-links-and-navigation)
+    - [7. Images and Media](#7-images-and-media)
+    - [8. HTML Forms Basics](#8-html-forms-basics)
+    - [9. Tables](#9-tables)
+    - [10. Semantic HTML](#10-semantic-html)
+    - [11. HTML Attributes](#11-html-attributes)
+    - [12. Best Practices and Validation](#12-best-practices-and-validation)
 
 ---
 
@@ -97,8 +99,40 @@
   <li>water</li>
 </ol> 
 ```
+### 4. Inputs
+- Input elements allow users to enter data into forms.
+- Common types: text, email, password, number, etc.
 
-### 4. Links and Navigation
+```html
+<input type="text" placeholder="Your name">
+
+<input type="email" placeholder="Your email">
+
+<label for="fruit">Choose a fruit:</label>
+<select id="fruit" name="fruit">
+  <option value="apple">Apple</option>
+  <option value="banana">Banana</option>
+  <option value="orange">Orange</option>
+</select>
+```
+- `type="email"` ensures the input is a valid email address.
+- `select` creates a dropdown menu with options.
+
+### 5. Buttons
+
+- Button elements are used to create clickable buttons in forms or on web pages.
+
+```html
+<button>Click Me</button>
+
+<button type="submit">Submit</button>
+
+<button>Save</button>
+```
+- `type="submit"` is used to submit a form.
+
+
+### 6. Links and Navigation
 - Anchor elements (a)
 - Linking to external sites
 - Internal page navigation with anchors
@@ -122,7 +156,7 @@
 <a href="mailto:someone@example.com">Send Email</a>
 ```
 
-### 5. Images and Media
+### 7. Images and Media
 - Image element (img)
 - Alt text for accessibility
 
@@ -133,33 +167,33 @@
 - `alt` provides alternative text for accessibility.
 - `width` and `height` set the image size (optional)
 
-### 6. HTML Forms Basics
+### 8. HTML Forms Basics
 - Form element and basic structure
 - Input types (text, email, password, submit)
 - Labels and their importance
 - Textarea and select elements
 - Form validation basics
 
-### 7. Tables
+### 9. Tables
 - When to use tables (data, not layout)
 - Table structure (table, tr, td, th)
 - Table headers and accessibility
 - Caption element
 
-### 8. Semantic HTML
+### 10. Semantic HTML
 - Importance of semantic markup
 - Structural elements
   - Header, nav, main, article, section, aside, footer
 - Why semantic HTML matters for SEO and accessibility
 - Div vs semantic elements
 
-### 9. HTML Attributes
+### 11. HTML Attributes
 - Common global attributes (id, class, style)
 - Element-specific attributes
 - Boolean attributes
 - Custom data attributes (data-*)
 
-### 10. Best Practices and Validation
+### 12. Best Practices and Validation
 - Code organization and indentation
 - Commenting in HTML
 - HTML validation tools
