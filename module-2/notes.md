@@ -139,10 +139,16 @@ HTML tags tell the browser what each part of your page is and how it should look
 - Input elements allow users to enter data into forms.
 - Common types: text, email, password, number, etc.
 
-```html
-<input type="text" placeholder="Your name">
+A **label** in HTML is used to describe what an input field is for. Labels make forms easier to use and more accessible, especially for screen readers.
 
-<input type="email" placeholder="Your email">
+**How to use a label with an input:**
+- Use the `<label>` tag to describe the input.
+- Connect the label to the input using the `for` attribute on the label and the `id` attribute on the input.  
+- When you click the label, the corresponding input is focused.
+
+```html
+<label for="name">What is your name?</input>
+<input id="name" type="text" placeholder="Your name">
 
 <label for="fruit">Choose a fruit:</label>
 <select id="fruit" name="fruit">
@@ -152,6 +158,7 @@ HTML tags tell the browser what each part of your page is and how it should look
 </select>
 ```
 - `type="email"` ensures the input is a valid email address.
+- `type="number"` ensures valid number is provided as an input.
 - `select` creates a dropdown menu with options.
 
 ### 6. Buttons
