@@ -13,11 +13,10 @@
     - [6. Buttons](#6-buttons)
     - [7. Links and Navigation](#7-links-and-navigation)
     - [8. Images and Media](#8-images-and-media)
-    - [9. HTML Forms Basics](#9-html-forms-basics)
-    - [10. Tables](#10-tables)
-    - [11. Semantic HTML](#11-semantic-html)
-    - [12. HTML Attributes](#12-html-attributes)
-    - [13. Best Practices and Validation](#13-best-practices-and-validation)
+    - [9. HTML Attributes](#9-html-attributes)
+    - [10. Other Common HTML Tags](#10-other-common-html-tags)
+    - [11. What is Semantic HTML?](#11-what-is-semantic-html)
+    - [12. Accessibility in HTML](#12-accessibility-in-html)
 
 ---
 
@@ -210,34 +209,81 @@ A **label** in HTML is used to describe what an input field is for. Labels make 
 - `alt` provides alternative text for accessibility.
 - `width` and `height` set the image size (optional)
 
-### 9. HTML Forms Basics
-- Form element and basic structure
-- Input types (text, email, password, submit)
-- Labels and their importance
-- Textarea and select elements
-- Form validation basics
 
-### 10. Tables
-- When to use tables (data, not layout)
-- Table structure (table, tr, td, th)
-- Table headers and accessibility
-- Caption element
 
-### 11. Semantic HTML
-- Importance of semantic markup
-- Structural elements
-  - Header, nav, main, article, section, aside, footer
-- Why semantic HTML matters for SEO and accessibility
-- Div vs semantic elements
+### 9. HTML Attributes
 
-### 12. HTML Attributes
-- Common global attributes (id, class, style)
-- Element-specific attributes
-- Boolean attributes
-- Custom data attributes (data-*)
+- **Attributes** provide extra information about HTML elements.
+- They are always included in the opening tag and usually come in name/value pairs like `name="value"`.
+- Common attributes:  
+  - `href` for links  
+  - `src` for images  
+  - `alt` for images  
+  - `id` and `class` for identifying and styling elements
+- You can use the `style` attribute to add CSS directly to an element (inline styling), but it’s better to use separate CSS for larger projects.
 
-### 13. Best Practices and Validation
-- Code organization and indentation
-- Commenting in HTML
-- HTML validation tools
-- Accessibility considerations
+**Example:**
+```html
+<p class="highlight" id="intro" style="color: blue;">This is a highlighted paragraph.</p>
+```
+- `class` and `id` are often used with CSS to style elements.
+
+---
+
+### 10. Other Common HTML Tags
+
+- `<div>`: Generic container for grouping content
+- `<span>`: Inline container for text
+- `<hr>`: Horizontal rule (line)
+- `<table>`, `<tr>`, `<td>`, `<th>`: For tables
+- `<form>`, `<input>`, `<textarea>`, `<button>`: For forms
+- `<nav>`: Navigation links
+- `<header>`, `<footer>`, `<main>`, `<section>`, `<article>`: Semantic containers
+
+**Example:**
+```html
+<div>
+  <h2>Contact Info</h2>
+  <p>Email: <a href="mailto:someone@example.com">someone@example.com</a></p>
+</div>
+```
+
+---
+
+### 11. What is Semantic HTML?
+
+- **Semantic HTML** means using HTML tags that describe the meaning of the content, not just how it looks.
+- Examples:  
+  - `<header>` for page or section headers  
+  - `<nav>` for navigation menus  
+  - `<main>` for the main content  
+  - `<section>` for thematic grouping  
+  - `<article>` for independent content  
+  - `<footer>` for page or section footers
+
+**Why use semantic HTML?**
+- Makes your code easier to read and maintain
+- Helps search engines understand your content (better SEO)
+- Improves accessibility for screen readers and assistive technologies
+
+**Example:**
+```html
+<main>
+  <article>
+    <h2>News Story</h2>
+    <p>This is an article about something important.</p>
+  </article>
+</main>
+```
+
+---
+
+### 12. Accessibility in HTML
+
+- **Accessibility** means making your website usable for everyone, including people with disabilities.
+- Use semantic tags so assistive technologies can interpret your content correctly.
+- Always provide `alt` text for images.
+- Use labels for form inputs.
+- Ensure good color contrast and keyboard navigation.
+- Use headings (`<h1>`, `<h2>`, etc.) in a logical order.
+- Good accessibility helps everyone and is often required by law for public websites.
