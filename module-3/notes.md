@@ -11,8 +11,8 @@
   - [Exercise: Style a Simple HTML Box](#exercise-style-a-simple-html-box)
   - [CSS Specificity](#css-specificity)
     - [What is Specificity?](#what-is-specificity)
-  - [Colors in CSS](#colors-in-css)
-    - [1. Color Names](#1-color-names)
+  - [Colours in CSS](#colours-in-css)
+    - [1. Colour Names](#1-colour-names)
     - [2. Hexadecimal Codes](#2-hexadecimal-codes)
     - [3. RGB and RGBA](#3-rgb-and-rgba)
     - [4. HSL and HSLA](#4-hsl-and-hsla)
@@ -27,7 +27,7 @@
 
 **CSS** stands for **Cascading Style Sheets**. It is a language used to describe the style and layout of web pages — how HTML elements should look on the screen.
 
-- CSS controls **colors**, **fonts**, **spacing**, **borders**, **layout**, and more.
+- CSS controls **colours**, **fonts**, **spacing**, **borders**, **layout**, and more.
 - It separates content (HTML) from presentation (CSS), making websites easier to maintain and update.
 
 ---
@@ -113,7 +113,7 @@ Create a simple HTML page with a box (a `<div>`) that contains some text.
 Use CSS to add the following styles to the box:
 - A border
 - Some padding inside the box
-- A background color
+- A background colour
 
 **Example HTML:**
 ```html
@@ -135,13 +135,13 @@ Use CSS to add the following styles to the box:
 
 **What to do:**
 1. Copy the HTML and CSS into your own files. (use example `four.html`)
-2. Change the border color, thickness, or style.
+2. Change the border colour, thickness, or style.
 3. Try different padding values.
 4. Experiment with different background colors.
 5. Add more content or try changing the border radius.
 
 **Bonus:**  
-Try adding a hover effect that changes the background color when you move your mouse over the box!
+Try adding a hover effect that changes the background colour when you move your mouse over the box!
 ```css
 .my-box:hover {
   background-color: #b3c6e7;
@@ -171,13 +171,13 @@ Let's have a look at `five.html` in examples folder and guess what will be the c
 
 ---
 
-## Colors in CSS
+## Colours in CSS
 
-CSS allows you to set colors for text, backgrounds, borders, and other elements. There are several ways to specify colors in CSS:
+CSS allows you to set colours for text, backgrounds, borders, and other elements. There are several ways to specify colors in CSS:
 
-### 1. Color Names
+### 1. Colour Names
 
-You can use predefined color names like `red`, `blue`, `green`, `orange`, etc.
+You can use predefined colour names like `red`, `blue`, `green`, `orange`, etc.
 
 ```css
 p {
@@ -223,7 +223,7 @@ button {
 **Tip:**  
 - Use `color` for text color.
 - Use `background-color` for the background of an element.
-- You can experiment with different color formats to get the exact look you want!
+- You can experiment with different colour formats to get the exact look you want!
 
 
 ---
