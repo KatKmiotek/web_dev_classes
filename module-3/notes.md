@@ -60,7 +60,7 @@ Add a `<style>` block inside the `<head>` section of your HTML file. Please see 
 <head>
   <style>
     p {
-      color: green;
+      color: blue;
     }
   </style>
 </head>
