@@ -69,6 +69,8 @@ Add a `<style>` block inside the `<head>` section of your HTML file. Please see 
 ### 3. External CSS
 
 Create a separate `.css` file and link it in your HTML. This is allows sharing styles across multiple pages. In examples folder file `two.html` and `styles-two.css`
+At this point we have new file in our folder in VS Code:  
+![Folder Structure](fs.png)
 
 **index.html**
 ```html
