@@ -112,20 +112,24 @@ Let's have a look at `three.html` - applying styles to HTML tag
 
 **Task:**  
 Create a simple HTML page with a box (a `<div>`) that contains some text.  
-Use CSS to add the following styles to the box:
-- A border
-- Some padding inside the box
-- A background colour
+Use CSS to style the box.
 
-**Example HTML:**
+Steps:
+1. Create new HTML file, file name doesn't matter, needs to have extension `.html` - `one.html`
+2. In HTML file create boiler plate by typing `!` and clicking `enter`/`return` button on the keyboard
+3. In the <body> paste code from below
+
+**HTML:**
 ```html
 <div class="my-box">
   <h2>Hello, CSS!</h2>
   <p>This is a styled box. Try changing the border, padding, or background color in the CSS.</p>
 </div>
 ```
+4. Create `style.css` file in the same location as HTML file. Again, file name doesn't matter but extension needs to be `.css`
+5. Paste there CSS code from below
 
-**Example CSS:**
+**CSS:**
 ```css
 .my-box {
   border: 2px solid #2a5298;
@@ -134,6 +138,15 @@ Use CSS to add the following styles to the box:
   border-radius: 8px;
 }
 ```
+6. In the HTML file in <head> import CSS file to HTML code by pasting:
+
+```html
+<link rel="stylesheet" href="styles.css">
+```
+
+7. Open HTML in preview
+8. Experiment with changing colour, maybe border, add font-family, change border-radius etc
+
 
 **What to do:**
 1. Copy the HTML and CSS into your own files. (use example `four.html`)
