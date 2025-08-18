@@ -7,3 +7,4 @@ for Wed Development classes
 - **Module 2** Intro to HTML
 - **Module 3** Intro CSS
 - **Module 4** Web design
+- **Module 5** Intro to JavaScript
