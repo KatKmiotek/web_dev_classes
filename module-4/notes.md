@@ -78,6 +78,9 @@ Now that you know the basics of HTML and CSS, it’s time to think about how web
 - They help you plan where things like menus, images, and buttons will go—without worrying about colors or details yet.
 - Wireframes can be drawn on paper or created with digital tools.
 
+Example:  
+![wireframe example](wireframe.png)
+
 ---
 
 ## Design with Figma
@@ -85,6 +88,10 @@ Now that you know the basics of HTML and CSS, it’s time to think about how web
 - **Figma** is a popular online tool for designing websites and creating wireframes.
 - It lets you experiment with layouts, colors, and fonts before you start coding.
 - Figma is collaborative, so you can work with others and get feedback easily.
+- Registration is free
+
+Example:  
+![Figma view](figma.png)
 
 ---
 
