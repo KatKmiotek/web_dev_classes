@@ -1,4 +1,6 @@
-- [Designing a Website](#designing-a-website)
+# Module 4: Designing a Website
+
+- [Module 4: Designing a Website](#module-4-designing-a-website)
   - [Personas and User Journeys](#personas-and-user-journeys)
     - [Example Persona](#example-persona)
     - [Example User Journey (Given-When-Then)](#example-user-journey-given-when-then)
@@ -7,8 +9,6 @@
   - [Design with Figma](#design-with-figma)
   - [Usability Heuristics](#usability-heuristics)
 
-
-# Designing a Website
 
 Now that you know the basics of HTML and CSS, it’s time to think about how websites are planned and designed before any code is written. Here are some key concepts and roles involved in the design process:
 
