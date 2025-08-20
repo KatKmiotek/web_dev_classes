@@ -9,6 +9,10 @@
     - [3. External CSS](#3-external-css)
   - [Basic CSS Syntax](#basic-css-syntax)
   - [Exercise: Style a Simple HTML Box](#exercise-style-a-simple-html-box)
+  - [Exploring More Interesting CSS Properties - Advanced](#exploring-more-interesting-css-properties---advanced)
+    - [CSS Transform](#css-transform)
+    - [CSS Transition](#css-transition)
+    - [CSS Animation](#css-animation)
   - [CSS Specificity](#css-specificity)
     - [What is Specificity?](#what-is-specificity)
   - [Colours in CSS](#colours-in-css)
@@ -21,6 +25,7 @@
     - [2. em](#2-em)
     - [3. rem (Root em)](#3-rem-root-em)
     - [4. % (Percent)](#4--percent)
+  - [Learning resources](#learning-resources)
 
 
 ## What is CSS?
@@ -162,7 +167,84 @@ Try adding a hover effect that changes the background colour when you move your 
   background-color: #b3c6e7;
 }
 ```
+---
 
+## Exploring More Interesting CSS Properties - Advanced
+
+Once you’re comfortable with basic CSS, you can start experimenting with more advanced and fun properties to make your website interactive and visually appealing.
+
+### CSS Transform
+
+- The `transform` property lets you move, rotate, scale, or skew elements.
+- Common functions: `rotate()`, `scale()`, `translate()`, `skew()`
+
+**Example:**
+```css
+.my-box {
+  transform: rotate(5deg) scale(1.1);
+}
+```
+
+### CSS Transition
+
+- The `transition` property makes changes (like color or size) happen smoothly over time, instead of instantly.
+
+**Example:**
+```css
+.my-box {
+  transition: background-color 0.3s, transform 0.3s;
+}
+.my-box:hover {
+  background-color: #b3c6e7;
+  transform: scale(1.05);
+}
+```
+
+### CSS Animation
+
+- The `animation` property lets you create more complex, keyframe-based animations.
+
+What are Keyframes in CSS?  
+
+**Keyframes** are a way to define complex animations in CSS. They let you specify how an element should look at different points during an animation.
+
+- You create keyframes using the `@keyframes` rule.
+- Inside the keyframes, you set styles for different stages (using percentages or keywords like `from` and `to`).
+- You then apply the animation to an element using the `animation` property.
+
+**Example:**
+```css
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+.animated-box {
+  animation: bounce 1s infinite;
+}
+```
+
+**How it works:**
+- The element with class `.animated-box` will move up (`translateY(-30px)`) and then back down, repeating forever.
+- `0%` is the start, `50%` is halfway, and `100%` is the end of the animation cycle.
+
+Another example:
+
+```css
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to   { transform: rotate(360deg); }
+}
+
+.spin {
+  animation: spin 1s linear infinite;
+}
+```
+
+**Keyframes let you create smooth, custom animations beyond simple transitions!**
+
+---
 
 ## CSS Specificity
 
@@ -270,3 +352,9 @@ When you set sizes in CSS (like font size, width, margin, or padding), you need 
 - Use `px` for precise, fixed sizes.
 - Use `em` and `rem` for scalable, responsive designs.
 - Use `%` for layouts that adapt to their container.
+
+
+## Learning resources
+- [W3Schools](https://www.w3schools.com/css/) - highly recommended
+- [Codecademy](https://www.codecademy.com/learn/learn-css) - free course with practice
+- [CSS-Tricks](https://css-tricks.com/) - all about CSS use cases
