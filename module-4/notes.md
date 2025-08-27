@@ -67,7 +67,7 @@ Now that you know the basics of HTML and CSS, it’s time to think about how web
 ## Designer Role
 
 - A **designer** focuses on how a website looks and feels.
-- They create layouts, choose colors and fonts, and make sure the site is visually appealing and easy to use.
+- They create layouts, choose colours and fonts, and make sure the site is visually appealing and easy to use.
 - Designers often work closely with developers to turn their ideas into real web pages.
 
 ---
@@ -75,7 +75,7 @@ Now that you know the basics of HTML and CSS, it’s time to think about how web
 ## Wireframes
 
 - **Wireframes** are simple sketches or diagrams that show the basic structure of a web page.
-- They help you plan where things like menus, images, and buttons will go—without worrying about colors or details yet.
+- They help you plan where things like menus, images, and buttons will go—without worrying about colours or details yet.
 - Wireframes can be drawn on paper or created with digital tools.
 
 Example:  
@@ -86,7 +86,7 @@ Example:
 ## Design with Figma
 
 - **Figma** is a popular online tool for designing websites and creating wireframes.
-- It lets you experiment with layouts, colors, and fonts before you start coding.
+- It lets you experiment with layouts, colours, and fonts before you start coding.
 - Figma is collaborative, so you can work with others and get feedback easily.
 - Registration is free
 
@@ -104,6 +104,6 @@ Example:
   - Make important actions easy to find  
   - Prevent errors and help users recover from mistakes
 - Following these guidelines helps create a better experience for everyone.
-
+- List of [10 usability heuristics written in 1994](https://www.nngroup.com/articles/ten-usability-heuristics/) 
 ---
 
