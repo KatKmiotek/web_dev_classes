@@ -337,6 +337,25 @@ When you set sizes in CSS (like font size, width, margin, or padding), you need 
 - **Relative unit** — based on the font size of the element’s parent.
 - Example: If the parent has `font-size: 20px;`, then `font-size: 2em;` will be 40px.
 - Useful for scaling elements together.
+**Example:**
+```css
+.parent {
+  font-size: 20px;
+}
+
+.child {
+  font-size: 2em; /* This will be 40px (2 x 20px) */
+}
+```
+
+```html
+<div class="parent">
+  This is the parent (20px font size).
+  <div class="child">
+    This is the child (2em = 40px font size).
+  </div>
+</div>
+```
 
 ### 3. rem (Root em)
 - **Relative unit** — based on the font size of the root element (`<html>`).
