@@ -49,6 +49,7 @@ Maybe you will decide to add any of these features to make your website more int
 - **Blog/news section** – Regular content updates
 - **Reviews** – Ratings for recipes, products, etc.
 - **Star rating** - Allow users to star your content
+- **Getting data** - Sourcing data from open source database (recipes, events, timetables, weather)
 
 ### 🎯 Interactive Elements
 - **Forms** – Contact, booking, survey, or registration forms
