@@ -7,6 +7,7 @@
   - [Designer Role](#designer-role)
   - [Wireframes](#wireframes)
   - [Design with Figma](#design-with-figma)
+  - [Validating Design with A/B Testing](#validating-design-with-ab-testing)
   - [Usability Heuristics](#usability-heuristics)
 
 
@@ -92,6 +93,20 @@ Example:
 
 Example:  
 ![Figma view](figma.png)
+
+
+---
+
+## Validating Design with A/B Testing
+
+- **A/B testing** is a method for comparing two versions of a web page or feature to see which one performs better.
+- You show version A to some users and version B to others, then measure which version helps users achieve a goal (like clicking a button or signing up).
+- This helps you make decisions based on real user data, not just opinions.
+- A/B testing is useful for testing things like button colours, headlines, layouts, or images.
+- Tools like Google Optimize or Optimizely can help you run A/B tests on your website.
+
+Example:  
+You want to know if a green "Sign Up" button gets more clicks than a blue one. You create two versions of your page—one with each button colour—and see which gets more sign-ups.
 
 ---
 
