@@ -5,6 +5,10 @@
     - [Example Persona](#example-persona)
     - [Example User Journey (Given-When-Then)](#example-user-journey-given-when-then)
   - [Designer Role](#designer-role)
+  - [Layouts for Different Types of Websites](#layouts-for-different-types-of-websites)
+    - [Blog](#blog)
+    - [Online Shop (E-commerce)](#online-shop-e-commerce)
+    - [Portfolio](#portfolio)
   - [Wireframes](#wireframes)
   - [Design with Figma](#design-with-figma)
   - [Validating Design with A/B Testing](#validating-design-with-ab-testing)
@@ -70,6 +74,35 @@ Now that you know the basics of HTML and CSS, it’s time to think about how web
 - A **designer** focuses on how a website looks and feels.
 - They create layouts, choose colours and fonts, and make sure the site is visually appealing and easy to use.
 - Designers often work closely with developers to turn their ideas into real web pages.
+
+---
+
+## Layouts for Different Types of Websites
+
+Different types of websites often use different layouts to best serve their users and content. Here are some common examples:
+
+### Blog
+
+- **Header** with site title or logo and navigation
+- **Main content area** for blog posts (often in a single column)
+- **Sidebar** for categories, recent posts, or social links
+- **Footer** with copyright and additional links
+
+### Online Shop (E-commerce)
+
+- **Header** with logo, navigation, and shopping cart icon
+- **Product grid/list** on the homepage or category pages
+- **Filters** to sort or narrow down products
+- **Product detail pages** with images, descriptions, price, and "Add to Cart" button
+- **Checkout flow** for reviewing and purchasing items
+- **Footer** with contact info, policies, and links
+
+### Portfolio
+
+- **Header** with name/logo and navigation
+- **Hero section** with a short introduction or featured work
+- **Gallery** to show images of projects
+
 
 ---
 
