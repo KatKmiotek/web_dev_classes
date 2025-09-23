@@ -7,7 +7,9 @@
 - [Module 5: Introduction to JavaScript](#module-5-introduction-to-javascript)
   - [Table of Contents](#table-of-contents)
   - [What is JavaScript?](#what-is-javascript)
+  - [JavaScript Runtime](#javascript-runtime)
   - [How to Add JavaScript to a Web Page](#how-to-add-javascript-to-a-web-page)
+  - [Example in `module-5/examples/index.html`](#example-in-module-5examplesindexhtml)
   - [Variables and Data Types](#variables-and-data-types)
   - [Basic Operators and Expressions](#basic-operators-and-expressions)
   - [Functions](#functions)
@@ -27,6 +29,14 @@
 
 ---
 
+## JavaScript Runtime
+
+- **JavaScript runtime** is the environment where your JavaScript code runs.
+- In the browser, the runtime includes the JavaScript engine (like Chrome’s V8) and provides access to the web page (DOM), events, and browser APIs.
+- JavaScript can also run outside the browser, for example with **Node.js**, which lets you use JavaScript for server-side programming.
+
+---
+
 ## How to Add JavaScript to a Web Page
 
 - Use the `<script>` tag in your HTML.
@@ -43,18 +53,28 @@
 ```html
 <script src="script.js"></script>
 ```
-
+Example in `module-5/examples/index.html`
 ---
 
 ## Variables and Data Types
 
 - Variables store information you want to use later.
 - Declare variables with `let` or `const`.
+- notice naming convention `camelCase`
 
+`**Example:**
 ```js
-let name = "Sarah";
-const age = 38;
-let isLoggedIn = true;
+let userName = "Sarah";
+```
+- `let` – keyword to declare a variable (can also use `const` for values that don’t change)
+- `name` – variable userName (should be descriptive, uses camelCase)
+- `=` – assignment operator (assigns the value on the right to the variable)
+- `"Sarah"` – value (in this case, a string)
+
+**More examples:**
+```js
+const myAge = 38;      // number
+let isLoggedIn = true; // boolean
 ```
 
 - Common data types: string, number, boolean
@@ -70,6 +90,9 @@ let isLoggedIn = true;
 ```js
 let total = 5 + 3;
 let isEqual = (total === 8);
+const a = 2;
+const b = 1;
+const result = a + b; // adding values of variables
 ```
 
 ---
@@ -77,13 +100,37 @@ let isEqual = (total === 8);
 ## Functions
 
 - Functions are reusable blocks of code.
+- Are keys element of programming, allow manipulate data
+- Examples `module-5/examples/code/script.js`
 
 ```js
+function add() {
+  1 + 2; // do operation
+}
+
+function add(a, b) { // pass parameters
+  a + b; 
+}
+
+function add(a, b) {
+   const result = a + b;
+   return result; // do operation and return value
+}
+
+function add(a, b) {
+   const result = a + b;
+   console.log("results is " + result) // print message
+   return result;
+}
+
 function greet(name) {
-  alert("Hello, " + name + "!");
+  console.log("Hello, " + name + "!");
 }
 
 greet("Alan");
+
+add(1,2)
+
 ```
 
 ---
