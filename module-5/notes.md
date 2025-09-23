@@ -9,14 +9,16 @@
   - [What is JavaScript?](#what-is-javascript)
   - [JavaScript Runtime](#javascript-runtime)
   - [How to Add JavaScript to a Web Page](#how-to-add-javascript-to-a-web-page)
-  - [Example in `module-5/examples/index.html`](#example-in-module-5examplesindexhtml)
   - [Variables and Data Types](#variables-and-data-types)
   - [Basic Operators and Expressions](#basic-operators-and-expressions)
   - [Functions](#functions)
+  - [Conditional Statements](#conditional-statements)
+  - [Loops](#loops)
+  - [Other data types - Arrays](#other-data-types---arrays)
+    - [Function Example: Print All Items in an Array](#function-example-print-all-items-in-an-array)
+  - [Exercises](#exercises)
   - [Events and Event Handling](#events-and-event-handling)
   - [The Document Object Model (DOM)](#the-document-object-model-dom)
-  - [Conditional Statements](#conditional-statements)
-  - [Loops (Optional)](#loops-optional)
   - [Practice Exercise](#practice-exercise)
 
 ---
@@ -24,7 +26,7 @@
 ## What is JavaScript?
 
 - JavaScript is a programming language that makes web pages interactive.
-- It works alongside HTML (structure) and CSS (style) to add dynamic behaviour to websites (muscles).
+- It works alongside HTML (structure) and CSS (style) to add dynamic behavior to websites (muscles).
 - Examples: responding to button clicks, showing/hiding content, validating forms.
 
 ---
@@ -53,7 +55,7 @@
 ```html
 <script src="script.js"></script>
 ```
-Example in `module-5/examples/index.html`
+- Example in `module-5/examples/index.html`
 ---
 
 ## Variables and Data Types
@@ -132,8 +134,80 @@ greet("Alan");
 add(1,2)
 
 ```
+---
+## Conditional Statements
+
+- Use `if`, `else if`, and `else` to make decisions.
+
+```js
+let age = 18;
+
+function checkAge() {
+  if (age > 18) {
+    console.log("You are an adult.");
+  } else if (age == 18) {
+    console.log("You are 18.");
+  } else {
+    console.log("You are a minor.");
+  }
+}
+
+checkAge();
+```
 
 ---
+
+## Loops
+
+- Loops let you repeat actions.
+
+```js
+for (let i = 1; i <= 5; i++) {
+  console.log("Number: " + i);
+}
+```
+
+---
+
+## Other data types - Arrays
+
+- An **array** is a special variable that can hold more than one value at a time.
+- Arrays are useful for storing lists of items, like numbers, names, or objects.
+- You can access each item in an array by its index (starting from 0).
+
+
+
+**Example:**
+```js
+let fruits = ["apple", "banana", "orange"];
+
+
+console.log(fruits[0]); // prints "apple"
+console.log(fruits[2]); // prints "orange"
+```
+
+### Function Example: Print All Items in an Array
+
+```js
+function printArrayItems(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    console.log(arr[i]);
+  }
+}
+
+printArrayItems(fruits); // prints each fruit in the array
+```
+- `arr` is the parameter (the array you pass in)
+- `arr.length` gives the number of items in the array
+- `arr[i]` accesses each item by its index
+
+---
+
+## Exercises
+To be able to run javascript locally we will need to install the runtime - NodeJS.  
+Use this link to download or install https://nodejs.org/en/download (again, its free)
+
+1. 
 
 ## Events and Event Handling
 
@@ -158,33 +232,6 @@ add(1,2)
 
 ```js
 document.getElementById("myHeading").textContent = "New Heading!";
-```
-
----
-
-## Conditional Statements
-
-- Use `if`, `else if`, and `else` to make decisions.
-
-```js
-let age = 18;
-if (age >= 18) {
-  alert("You are an adult.");
-} else {
-  alert("You are a minor.");
-}
-```
-
----
-
-## Loops (Optional)
-
-- Loops let you repeat actions.
-
-```js
-for (let i = 1; i <= 5; i++) {
-  console.log("Number: " + i);
-}
 ```
 
 ---
