@@ -239,7 +239,7 @@ document.getElementById("myHeading").textContent = "New Heading!";
 
 ## Practice Exercise
 
-1. Exercise — Inspect variables and console output
+1. **Exercise — Inspect variables and console output**
 
 - Open the folder `module-5/examples/variables/` and locate `index.html` and `script.js`.
 - Read `script.js` and identify examples of the three basic data types: string, number, and boolean. Write down one variable for each type.
@@ -248,7 +248,7 @@ document.getElementById("myHeading").textContent = "New Heading!";
 - Open the browser DevTools and switch to the Console tab.
 - Reload the page if needed and observe the messages printed by `script.js` in the Console.
 
-2. Exercise — Explore functions and console output
+2. **Exercise — Explore functions and console output**
 
 - Open the folder `module-5/examples/function/` and locate `index.html` and `script.js`.
 - Read `script.js` and identify the functions defined there, the parameters they accept, and where `console.log()` is used inside those functions.
