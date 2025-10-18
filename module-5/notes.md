@@ -16,7 +16,7 @@
   - [Loops](#loops)
   - [Other data types - Arrays](#other-data-types---arrays)
     - [Function Example: Print All Items in an Array](#function-example-print-all-items-in-an-array)
-  - [Exercises](#exercises)
+  - [NodeJS](#nodejs)
   - [Events and Event Handling](#events-and-event-handling)
   - [The Document Object Model (DOM)](#the-document-object-model-dom)
   - [Practice Exercise](#practice-exercise)
@@ -205,11 +205,10 @@ printArrayItems(fruits); // prints each fruit in the array
 
 ---
 
-## Exercises
+## NodeJS
 To be able to run javascript locally we will need to install the runtime - NodeJS.  
 Use this link to download or install https://nodejs.org/en/download (again, its free)
 
-1. 
 
 ## Events and Event Handling
 
