@@ -55,7 +55,7 @@
 ```html
 <script src="script.js"></script>
 ```
-- Example in `module-5/examples/index.html`
+- Example in [module-5/examples/variables/index.html](https://github.com/KatKmiotek/web_dev_classes/blob/main/module-5/examples/variables/index.html)
 ---
 
 ## Variables and Data Types
@@ -97,13 +97,15 @@ const b = 1;
 const result = a + b; // adding values of variables
 ```
 
+Example [module-5/examples/variables/script.js](https://github.com/KatKmiotek/web_dev_classes/blob/main/module-5/examples/variables/script.js)
+
 ---
 
 ## Functions
 
 - Functions are reusable blocks of code.
 - Are keys element of programming, allow manipulate data
-- Examples `module-5/examples/code/script.js`
+- Examples [module-5/examples/function/script.js](https://github.com/KatKmiotek/web_dev_classes/blob/main/module-5/examples/function/script.js)
 
 ```js
 function add() {
