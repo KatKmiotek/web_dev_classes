@@ -238,5 +238,23 @@ document.getElementById("myHeading").textContent = "New Heading!";
 
 ## Practice Exercise
 
-1. Add a button to your HTML page. Write JavaScript to show an alert when it’s clicked.
+1. Exercise — Inspect variables and console output
+
+- Open the folder `module-5/examples/variables/` and locate `index.html` and `script.js`.
+- Read `script.js` and identify examples of the three basic data types: string, number, and boolean. Write down one variable for each type.
+- Notice the `console.log()` calls in the file — this is how the script prints messages to the browser Console for debugging.
+- In VS Code, open `index.html`, then open it in your default browser (right-click -> "Open in Default Browser").
+- Open the browser DevTools and switch to the Console tab.
+- Reload the page if needed and observe the messages printed by `script.js` in the Console.
+
+2. Exercise — Explore functions and console output
+
+- Open the folder `module-5/examples/function/` and locate `index.html` and `script.js`.
+- Read `script.js` and identify the functions defined there, the parameters they accept, and where `console.log()` is used inside those functions.
+- Notice how the functions are called (what arguments are passed) and the order in which the log messages appear.
+- In VS Code, open `index.html`, then open it in your default browser.
+- Open the browser DevTools and switch to the Console tab.
+- Reload the page if needed and observe the console messages printed by `script.js` — these demonstrate function calls, parameters, and accumulated values.
+- Try a quick modification: change a number argument in `script.js`, save, and reload the page to see how the Console output changes.
+- Add new console log or change functionality of function to multiply instead of adding parameter passed.
 
