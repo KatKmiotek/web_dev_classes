@@ -10,7 +10,6 @@
   - [JavaScript Runtime](#javascript-runtime)
   - [How to Add JavaScript to a Web Page](#how-to-add-javascript-to-a-web-page)
   - [Variables and Data Types](#variables-and-data-types)
-- [using console log](#using-console-log)
   - [Using the Console (console.log)](#using-the-console-consolelog)
   - [String interpolation](#string-interpolation)
   - [Basic Operators and Expressions](#basic-operators-and-expressions)
@@ -85,8 +84,6 @@ let isLoggedIn = true; // boolean
 - Common data types: string, number, boolean
 
 ---
-# using console log
----
 
 ## Using the Console (console.log)
 
@@ -101,7 +98,6 @@ console.log(`x doubled is ${x * 2}`); // template literal interpolation
 ```
 
 - Use `console.log('label', value)` to keep output readable and show multiple values.
-
 
 ## String interpolation
 
