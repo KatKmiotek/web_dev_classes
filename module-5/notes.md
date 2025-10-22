@@ -11,6 +11,7 @@
   - [How to Add JavaScript to a Web Page](#how-to-add-javascript-to-a-web-page)
   - [Variables and Data Types](#variables-and-data-types)
 - [using console log](#using-console-log)
+  - [Using the Console (console.log)](#using-the-console-consolelog)
   - [String interpolation](#string-interpolation)
   - [Basic Operators and Expressions](#basic-operators-and-expressions)
   - [Functions](#functions)
@@ -86,6 +87,21 @@ let isLoggedIn = true; // boolean
 ---
 # using console log
 ---
+
+## Using the Console (console.log)
+
+The browser Console is where JavaScript can print messages while a page runs. The most common method is `console.log()` — use it to show values, debug code, and verify program flow.
+
+Basic usage:
+```js
+console.log('Hello world');           // prints a message
+const x = 5;
+console.log('value of x is', x);     // prints text and variable
+console.log(`x doubled is ${x * 2}`); // template literal interpolation
+```
+
+- Use `console.log('label', value)` to keep output readable and show multiple values.
+
 
 ## String interpolation
 
