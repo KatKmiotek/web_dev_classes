@@ -10,6 +10,7 @@
   - [JavaScript Runtime](#javascript-runtime)
   - [How to Add JavaScript to a Web Page](#how-to-add-javascript-to-a-web-page)
   - [Variables and Data Types](#variables-and-data-types)
+  - [String interpolation](#string-interpolation)
   - [Basic Operators and Expressions](#basic-operators-and-expressions)
   - [Functions](#functions)
   - [Conditional Statements](#conditional-statements)
@@ -82,6 +83,35 @@ let isLoggedIn = true; // boolean
 - Common data types: string, number, boolean
 
 ---
+
+## String interpolation
+
+- JavaScript provides *template literals* (strings wrapped in backticks `) that allow embedding expressions directly inside a string using `${...}`. This is often called string interpolation.
+
+**Examples:**
+```js
+const name = 'Alex';
+const score = 42;
+
+console.log(`Hello, ${name}! Your score is ${score}.`);
+
+console.log(`${name} doubled is ${score * 2}`);
+
+```
+
+
+Short exercise:
+- Convert this concatenation into a template literal:  
+```js
+const a = 'Maria';
+const b = 7;
+console.log('Student ' + a + ' received ' + b + ' points.');
+```
+into
+```js
+console.log(`Student ${a} received ${b} points.`);
+```
+
 
 ## Basic Operators and Expressions
 
@@ -202,6 +232,8 @@ printArrayItems(fruits); // prints each fruit in the array
 - `arr` is the parameter (the array you pass in)
 - `arr.length` gives the number of items in the array
 - `arr[i]` accesses each item by its index
+
+Example can be found in `module-5/examples/iterator`
 
 ---
 
