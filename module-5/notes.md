@@ -10,6 +10,7 @@
   - [JavaScript Runtime](#javascript-runtime)
   - [How to Add JavaScript to a Web Page](#how-to-add-javascript-to-a-web-page)
   - [Variables and Data Types](#variables-and-data-types)
+- [using console log](#using-console-log)
   - [String interpolation](#string-interpolation)
   - [Basic Operators and Expressions](#basic-operators-and-expressions)
   - [Functions](#functions)
@@ -82,6 +83,8 @@ let isLoggedIn = true; // boolean
 
 - Common data types: string, number, boolean
 
+---
+# using console log
 ---
 
 ## String interpolation
