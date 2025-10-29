@@ -9,3 +9,4 @@ for Wed Development classes
 - **Module 4** Web design
 - **Module 5** Intro to JavaScript
 - **Module 6** Website layout templates
+- **Module 7** Version Control
