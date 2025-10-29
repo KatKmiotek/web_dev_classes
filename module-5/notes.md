@@ -201,8 +201,7 @@ function checkAge() {
 
 checkAge();
 ```
-
----
+Have a look at example in in module-5/examples/conditions/script.js
 
 ## Loops
 
