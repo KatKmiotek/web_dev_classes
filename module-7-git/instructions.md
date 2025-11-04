@@ -51,14 +51,11 @@ With the repository open in VS Code:
 
 Command palette alternative: Cmd+Shift+P → `Git: Pull`.
 
-## 5 — Save / Commit before pulling (important)
+## 5 — Save your work (important)
 
-If you have unsaved changes or uncommitted edits they should either commit or stash before pulling to avoid merge problems.
+For now we are using version control for keeping your local version of notes updated with version in GitHub.  
+Please try to not edit files but maybe create your folder and keep your work there, it can be copy of module folder.  
 
-To commit in VS Code (GUI):
-
-1. Save files.
-2. Open Source Control view → type a short commit message in the message box → click the checkmark to commit.
-
-To stash: Cmd+Shift+P → `Git: Stash` → follow the prompt.
+Please don't worry if then you will see your work files highlighted and number in the left nav changing. This indicates those are changed files.  
+![diff](changes.png)
 
