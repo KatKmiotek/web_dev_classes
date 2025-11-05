@@ -18,31 +18,31 @@ for (let i = 0; i < items.length; i++) {
 console.log("Iterator demo complete");
 
 
-function describeWalks(walkNames, walkDistances) {
-  console.log("Walks summary:");
-  for (let i = 0; i < Math.min(walkNames.length, walkDistances.length); i++) {
-    const name = walkNames[i];
-    const dist = walkDistances[i];
+// function describeWalks(walkNames, walkDistances) {
+//   console.log("Walks summary:");
+//   for (let i = 0; i < Math.min(walkNames.length, walkDistances.length); i++) {
+//     const name = walkNames[i];
+//     const dist = walkDistances[i];
 
-    let suggestion = "";
-    if (dist === "short") {
-      suggestion = "Short walk — roughly 30–90 minutes. Good for beginners.";
-    } else if (dist === "long") {
-      suggestion = "Long walk — allow several hours, bring water and snacks.";
-    } else {
-      suggestion = "Unknown distance — check details before you go.";
-    }
+//     let suggestion = "";
+//     if (dist === "short") {
+//       suggestion = "Short walk — roughly 30–90 minutes. Good for beginners.";
+//     } else if (dist === "long") {
+//       suggestion = "Long walk — allow several hours, bring water and snacks.";
+//     } else {
+//       suggestion = "Unknown distance — check details before you go.";
+//     }
 
-    console.log(`${i + 1}. ${name} — ${dist}. ${suggestion}`);
-  }
+//     console.log(`${i + 1}. ${name} — ${dist}. ${suggestion}`);
+//   }
 
-  console.log("Walk names:");
-  for (const walk of walkNames) {
-    console.log(" -", walk);
-  }
-}
+//   console.log("Walk names:");
+//   for (const walk of walkNames) {
+//     console.log(" -", walk);
+//   }
+// }
 
-const walks = ["Glen Loin Loop", "The Cobbler", "3 Lochs Way"];
-const distance = ["short", "long", "short"];
+// const walks = ["Glen Loin Loop", "The Cobbler", "3 Lochs Way"];
+// const distance = ["short", "long", "short"];
 
-describeWalks(walks, distance);
+// describeWalks(walks, distance);
