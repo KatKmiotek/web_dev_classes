@@ -205,13 +205,24 @@ Have a look at example in in module-5/examples/conditions/script.js
 
 ## Loops
 
-- Loops let you repeat actions.
-
+- Loops let you repeat actions multiple times
+- `for` loop has below parts:
+```js
+// expression 1 - declares variable like let = 0;
+// expression 2 - defines condition like i < 5;
+// expression 3 - is executed every time i++ ( or i + 1);
+// notice ; at the end of each expression
+for (exp 1; exp 2; exp 3) {
+  // code block to be executed like: console.log("hello")
+}
+```
+Example:  
 ```js
 for (let i = 1; i <= 5; i++) {
   console.log("Number: " + i);
 }
 ```
+Have a look at example 1 and 2 in file: [module-5-js/examples/iterator/loop/](https://github.com/KatKmiotek/web_dev_classes/blob/main/module-5-js/examples/iterator/loop/script.js)
 
 ---
 

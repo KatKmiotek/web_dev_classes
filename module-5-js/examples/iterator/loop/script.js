@@ -1,3 +1,10 @@
+// example 1
+
+for (let i = 0; i < 5; i++) {
+  console.log("Number is: ", i)
+}
+
+// example 2
 let wallet = 0;
 console.log(`starting with £${wallet} in my wallet`)
 const numberOfPpl = 5;
