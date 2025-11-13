@@ -46,10 +46,12 @@ Option B — Open remote without cloning (read-only):
 With the repository open in VS Code:
 
 - Open the Source Control view (left bar) or click the branch/status area in the bottom-left.
+![pull](pull.png)
 - Click the `...` menu in Source Control → choose **Pull** (or **Pull from...** and select `origin/main`).
 - Alternatively, click the circular sync icon in the status bar (pulls + pushes).
 
 Command palette alternative: Cmd+Shift+P → `Git: Pull`.
+
 
 ## 5 — Save your work (important)
 
