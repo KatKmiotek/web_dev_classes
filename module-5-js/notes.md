@@ -219,8 +219,39 @@ for (let i = 1; i <= 5; i++) {
 
 - An **array** is a special variable that can hold more than one value at a time.
 - Arrays are useful for storing lists of items, like numbers, names, or objects.
-- You can access each item in an array by its index (starting from 0).
 
+Key characteristics:
+
+**Elements**: An array is a list of values, known as elements.
+```js
+let fruits = ["apple", "banana", "orange"];
+let names = ["Sam", "Julia", "Helen"]
+```
+
+**Ordered**: Array elements are ordered based on their index.
+
+**Zero indexed**: The first element is at index 0, the second at index 1, and so on.
+```js
+let fruits = ["apple", "banana", "orange"];
+
+
+console.log(fruits[0]); // prints "apple"
+console.log(fruits[2]); // prints "orange"
+```
+
+**Dynamic size**: Arrays can grow or shrink as elements are added or removed.
+```js
+let fruits = ["apple", "banana", "orange"];
+fruits.push("pear") // push add at the end or array
+console.log("fruits after pear is added", fruits)
+fruits.pop() // removes last element of array
+```
+
+**Array methods**: There are many array in-build functions like length that give us number of elements in the array
+```js
+let size = fruits.length;
+```
+(Optional) For more arrays methods please see [W3Schools](https://www.w3schools.com/js/js_array_methods.asp) materials
 
 
 **Example:**
