@@ -17,7 +17,7 @@
   - [Conditional Statements](#conditional-statements)
   - [Loops](#loops)
   - [Other data types - Arrays](#other-data-types---arrays)
-    - [Function Example: Print All Items in an Array](#function-example-print-all-items-in-an-array)
+    - [Key characteristics:](#key-characteristics)
   - [NodeJS](#nodejs)
   - [Events and Event Handling](#events-and-event-handling)
   - [The Document Object Model (DOM)](#the-document-object-model-dom)
@@ -220,7 +220,7 @@ for (let i = 1; i <= 5; i++) {
 - An **array** is a special variable that can hold more than one value at a time.
 - Arrays are useful for storing lists of items, like numbers, names, or objects.
 
-Key characteristics:
+### Key characteristics:
 
 **Elements**: An array is a list of values, known as elements.
 ```js
@@ -251,34 +251,10 @@ fruits.pop() // removes last element of array
 ```js
 let size = fruits.length;
 ```
-(Optional) For more arrays methods please see [W3Schools](https://www.w3schools.com/js/js_array_methods.asp) materials
+(Optional) For more arrays methods please see [W3Schools](https://www.w3schools.com/js/js_array_methods.asp) materials.  
 
+If you wish to practice example script is located [module-5-js/examples/iterator/array](https://github.com/KatKmiotek/web_dev_classes/blob/main/module-5-js/examples/iterator/array/script.js)
 
-**Example:**
-```js
-let fruits = ["apple", "banana", "orange"];
-
-
-console.log(fruits[0]); // prints "apple"
-console.log(fruits[2]); // prints "orange"
-```
-
-### Function Example: Print All Items in an Array
-
-```js
-function printArrayItems(arr) {
-  for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
-  }
-}
-
-printArrayItems(fruits); // prints each fruit in the array
-```
-- `arr` is the parameter (the array you pass in)
-- `arr.length` gives the number of items in the array
-- `arr[i]` accesses each item by its index
-
-Example can be found in `module-5/examples/iterator`
 
 ---
 
