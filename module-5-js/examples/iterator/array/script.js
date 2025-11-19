@@ -1,5 +1,6 @@
 let fruits = ["apple", "banana", "orange"];
 fruits.push("pear")
+fruits.push("pineapple")
 console.log("fruits - pear is added", fruits)
 const len = fruits.length
 console.log("Fruits array has elements: ", len)
