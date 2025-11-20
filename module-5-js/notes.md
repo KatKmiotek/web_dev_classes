@@ -15,9 +15,9 @@
   - [Basic Operators and Expressions](#basic-operators-and-expressions)
   - [Functions](#functions)
   - [Conditional Statements](#conditional-statements)
-  - [Loops](#loops)
   - [Other data types - Arrays](#other-data-types---arrays)
     - [Key characteristics:](#key-characteristics)
+  - [Loops](#loops)
   - [NodeJS](#nodejs)
   - [Events and Event Handling](#events-and-event-handling)
   - [The Document Object Model (DOM)](#the-document-object-model-dom)
@@ -203,27 +203,6 @@ checkAge();
 ```
 Have a look at example in in module-5/examples/conditions/script.js
 
-## Loops
-
-- Loops let you repeat actions multiple times
-- `for` loop has below parts:
-```js
-// expression 1 - declares variable like let = 0;
-// expression 2 - defines condition like i < 5;
-// expression 3 - is executed every time i++ ( or i + 1);
-// notice ; at the end of each expression
-for (exp 1; exp 2; exp 3) {
-  // code block to be executed like: console.log("hello")
-}
-```
-Example:  
-```js
-for (let i = 1; i <= 5; i++) {
-  console.log("Number: " + i);
-}
-```
-Have a look at example 1 and 2 in file: [module-5-js/examples/iterator/loop/](https://github.com/KatKmiotek/web_dev_classes/blob/main/module-5-js/examples/iterator/loop/script.js)
-
 ---
 
 ## Other data types - Arrays
@@ -254,7 +233,7 @@ console.log(fruits[2]); // prints "orange"
 ```js
 let fruits = ["apple", "banana", "orange"];
 fruits.push("pear") // push add at the end or array
-console.log("fruits after pear is added", fruits)
+console.log("fruits - pear is added", fruits)
 fruits.pop() // removes last element of array
 ```
 
@@ -266,6 +245,39 @@ let size = fruits.length;
 
 If you wish to practice example script is located [module-5-js/examples/iterator/array](https://github.com/KatKmiotek/web_dev_classes/blob/main/module-5-js/examples/iterator/array/script.js)
 
+
+---
+
+## Loops
+
+- Loops let you repeat actions multiple times
+- `for` loop has below parts:
+```js
+// expression 1 - declares variable like let = 0;
+// expression 2 - defines condition like i < 5;
+// expression 3 - is executed every time i++ ( or i + 1);
+// notice ; at the end of each expression
+for (exp 1; exp 2; exp 3) {
+  // code block to be executed like: console.log("hello")
+}
+```
+Example:  
+```js
+for (let i = 1; i <= 5; i++) {
+  console.log("Number: " + i);
+}
+```
+
+When we don't use index (in example above `i`) we can use use `for of` loop:
+```js
+let fruits = ["apple", "banana", "orange"];
+for (const fruit of fruits) {
+  console.log("The fruit is: ", fruit)
+}
+```
+
+
+Have a look at example 1 and 2 in file: [module-5-js/examples/iterator/loop/](https://github.com/KatKmiotek/web_dev_classes/blob/main/module-5-js/examples/iterator/loop/script.js)
 
 ---
 
