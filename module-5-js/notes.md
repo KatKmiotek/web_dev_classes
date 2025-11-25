@@ -306,8 +306,21 @@ Key points:
   - An array (square brackets) — an ordered list of items (often an array of objects):
     ```json
     [
-      { "id": 1, "title": "A short walk", "distance": "short" },
-      { "id": 2, "title": "The Cobbler", "distance": "long" }
+      {
+        "id": 1,
+        "title": "A short walk",
+        "distance": "short"
+      },
+      {
+        "id": 2,
+        "title": "The Cobbler",
+        "distance": "long"
+      },
+      {
+        "id": 3,
+        "title": "The 3 Loch Way",
+        "distance": "long"
+      }
     ]
     ```
 This allows are grouping relevant data into one object.  
