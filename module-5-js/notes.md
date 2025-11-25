@@ -19,6 +19,8 @@
     - [Key characteristics:](#key-characteristics)
   - [Loops](#loops)
   - [NodeJS](#nodejs)
+  - [Getting data from backend](#getting-data-from-backend)
+    - [JSON — data from the backend](#json--data-from-the-backend)
   - [Events and Event Handling](#events-and-event-handling)
   - [The Document Object Model (DOM)](#the-document-object-model-dom)
   - [Practice Exercise](#practice-exercise)
@@ -285,6 +287,48 @@ Have a look at example 1 and 2 in file: [module-5-js/examples/iterator/loop/](ht
 To be able to run javascript locally we will need to install the runtime - NodeJS.  
 Use this link to download or install https://nodejs.org/en/download (again, its free)
 
+---
+
+## Getting data from backend
+Frontend is about getting data and displaying data. Data was our array of fruits that we were printing in the console, data was state of our wallet with money collected from 5 people. Its rarely that website uses `static` / `hardcoded` data as we did so far instead of it gets it from data source that usually is a backend of application. In module 1 we were talking about frontend and backend of website and what is responsible for what. Now we look into how Frontend connects with backend. 
+
+### JSON — data from the backend
+
+When a web server sends data to your browser it usually uses the JSON format. JSON stands for JavaScript Object Notation.  
+
+Key points:
+- JSON uses double quotes for keys and string values: `{ "title": "Hello" }`.
+- The two most common top-level JSON shapes are:
+  - An object (curly braces) — a collection of named fields:
+    ```json
+    { "id": 1, "title": "A short walk", "distance": "short" }
+    ```
+  - An array (square brackets) — an ordered list of items (often an array of objects):
+    ```json
+    [
+      { "id": 1, "title": "A short walk", "distance": "short" },
+      { "id": 2, "title": "The Cobbler", "distance": "long" }
+    ]
+    ```
+This allows are grouping relevant data into one object.  
+
+Let's look at examples:
+**Local data example**  
+1. Have a look at `examples/fetch/script.js`
+2. From top nav in VS Code select Terminal -> New Terminal
+3. Type in terminal `node module-5-js/examples/fetch/script.js`
+4. Let's see where we get data from?
+
+**Data from Backend**  
+1. Have a look at `examples/fetch/advanced.js`
+2. Use the url included there and paste it in the browser
+3. There is data and has shape of JSON
+4. Now open index.html in default browser and see console output
+5. What we can print there? What keys we have available?  
+
+
+
+---
 
 ## Events and Event Handling
 

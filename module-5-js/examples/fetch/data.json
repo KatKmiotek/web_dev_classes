@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "title": "A short walk",
+        "distance": "short"
+    },
+    {
+        "id": 2,
+        "title": "The Cobbler",
+        "distance": "long"
+    },
+    {
+        "id": 3,
+        "title": "The 3 Loch Way",
+        "distance": "long"
+    }
+]
