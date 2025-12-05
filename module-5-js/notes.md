@@ -339,7 +339,8 @@ Let's look at examples:
 4. Now open index.html in default browser and see console output
 5. What we can print there? What keys we have available?  
 
-
+**Exercise:**
+Have a look at `module-5-js/examples/fetch/practice/local/script.js`. You will find a exercise there with detailed description of steps. Please expand on requirements yourself as you go through the task.   
 
 ---
 

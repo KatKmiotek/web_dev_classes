@@ -1,4 +1,4 @@
-async function loadPosts() {
+async function loadData() {
   const remoteUrl = "https://uselessfacts.jsph.pl/api/v2/facts/random";
 
   const response = await fetch(remoteUrl);
@@ -7,5 +7,5 @@ async function loadPosts() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  loadPosts().catch((err) => console.error("loadPosts failed:", err));
+  loadData().catch((err) => console.error("loadPosts failed:", err));
 });

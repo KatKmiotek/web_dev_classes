@@ -2,16 +2,19 @@
     {
         "id": 1,
         "title": "A short walk",
-        "distance": "short"
+        "distance": "short",
+        "time": 1
     },
     {
         "id": 2,
         "title": "The Cobbler",
-        "distance": "long"
+        "distance": "long",
+        "time": 4
     },
     {
         "id": 3,
-        "title": "The 3 Loch Way",
-        "distance": "long"
+        "title": "The 3 Lochs Way",
+        "distance": "really long",
+        "time": 8
     }
 ]
