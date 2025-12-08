@@ -329,8 +329,9 @@ Let's look at examples:
 **Local data example**  
 1. Have a look at `examples/fetch/script.js`
 2. From top nav in VS Code select Terminal -> New Terminal
-3. Type in terminal `node module-5-js/examples/fetch/script.js`
-4. Let's see where we get data from?
+3. Note: we execute this script in terminal not in the browser as `require` function is available only in NodeJS runtime
+4. Type in terminal `node module-5-js/examples/fetch/script.js`
+5. Let's see where we get data from?
 
 **Data from Backend**  
 1. Have a look at `examples/fetch/advanced.js`
