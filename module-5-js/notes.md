@@ -346,7 +346,7 @@ Have a look at `module-5-js/examples/fetch/practice/local/script.js`. You will f
 **Backend API**
 Let's look at backend data, we will call it API (Application Programming Interface), we will look at two free APIs and go through its documentation to understand how to build URL to query data and then we will use it in `module-5-js/examples/fetch/practice/backend/script.js`
 
-Trivia API: https://opentdb.com/
+Trivia API: https://opentdb.com/  
 REST Countries API: https://opentdb.com/
 
 
