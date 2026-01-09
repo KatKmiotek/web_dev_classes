@@ -1,13 +1,4 @@
-async function getCountriesData() {
-  const remoteUrl = "";
-  const response = await fetch(remoteUrl);
-  if (!response.ok)
-    throw new Error(`Network response was not ok: ${response.status}`);
-  const data = await response.json();
-  return data;
-}
-
-async function getTriviaData() {
+async function getData() {
   const remoteUrl = "";
   const response = await fetch(remoteUrl);
   if (!response.ok)
@@ -35,14 +26,8 @@ function renderDataAsText(data) {
   main.appendChild(container);
 }
 
-// document.addEventListener("DOMContentLoaded", async () => {
-//     const countries = await getCountriesData();
-//     console.log({ countries });
-//     renderDataAsText(countries);
-// });
-
 document.addEventListener("DOMContentLoaded", async () => {
-    const trivia = await getTriviaData();
-    console.log({ trivia });
-    renderDataAsText(trivia);
+    const backendData = await getData();
+    console.log({ backendData });
+    renderDataAsText(backendData);
 });
