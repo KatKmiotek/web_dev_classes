@@ -1,5 +1,5 @@
 async function getData() {
-  const remoteUrl = "";
+  const remoteUrl = "https://opentdb.com/api.php?amount=10";
   const response = await fetch(remoteUrl);
   if (!response.ok)
     throw new Error(`Network response was not ok: ${response.status}`);
@@ -21,7 +21,8 @@ function renderDataAsText(data) {
   container.style.padding = '12px';
   container.style.marginTop = '0.5rem';
   container.style.fontSize = '0.9rem';
-  container.textContent = JSON.stringify(data, null, 2);
+  const toDisplay = data
+  container.textContent = JSON.stringify(toDisplay, null, 2);
   main.appendChild(label);
   main.appendChild(container);
 }
