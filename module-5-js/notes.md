@@ -348,6 +348,7 @@ Let's look at backend data, we will call it API (Application Programming Interfa
 
 Trivia API: https://opentdb.com/  
 REST Countries API: https://restcountries.com/
+Pokémon API: https://pokeapi.co/
 
 
 ---

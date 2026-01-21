@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pokemon gallery</title>
+    <link rel="stylesheet" href="script.css">
+</head>
+
+<body>
+    <main>
+        <h1>Pokémon viewer</h1>
+
+        <section id="pokemon" aria-live="polite">
+            <div id="poke-error" class="poke-error" hidden></div>
+
+            <div id="poke-card" class="poke-card" hidden>
+                <img id="poke-image" class="poke-image" alt="Pokémon" src="" />
+                <div class="poke-body">
+                    <h2 id="poke-name">—</h2>
+                    <div id="poke-types" class="poke-types"></div>
+                    <ul id="poke-stats" class="poke-stats"></ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>
