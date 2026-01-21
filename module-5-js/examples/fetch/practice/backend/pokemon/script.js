@@ -10,12 +10,17 @@ async function getData() {
 function renderDataAsText(data) {
   const name = data;
   const image = data;
+
   const nameEl = document.getElementById("poke-name");
   nameEl.textContent(name);
+
   const imgEl = document.getElementById("poke-image");
   imgEl.setAttribute("src", image);
+
   const typesEl = document.getElementById("poke-types");
+
   const statsEl = document.getElementById("poke-stats");
+  
   const card = document.getElementById("poke-card");
 }
 
