@@ -21,8 +21,9 @@
   - [NodeJS](#nodejs)
   - [Getting data from backend](#getting-data-from-backend)
     - [JSON — data from the backend](#json--data-from-the-backend)
-  - [Events and Event Handling](#events-and-event-handling)
   - [The Document Object Model (DOM)](#the-document-object-model-dom)
+    - [How JavaScript interacts with the DOM](#how-javascript-interacts-with-the-dom)
+  - [Events and Event Handling](#events-and-event-handling)
   - [Practice Exercise](#practice-exercise)
 
 ---
@@ -353,22 +354,6 @@ Pokémon API: https://pokeapi.co/
 
 ---
 
-## Events and Event Handling
-
-- Events are actions like clicks, typing, or page load.
-- You can make your website respond to events.
-
-```html
-<button id="myButton">Click Me!</button>
-<script>
-  document.getElementById("myButton").onclick = function() {
-    alert("Button was clicked!");
-  };
-</script>
-```
-
----
-
 ## The Document Object Model (DOM)
 
 - The DOM represents your web page so JavaScript can change it.
@@ -378,7 +363,59 @@ Pokémon API: https://pokeapi.co/
 document.getElementById("myHeading").textContent = "New Heading!";
 ```
 
+### How JavaScript interacts with the DOM
+
+Here is a short explanation to support the exercise in `examples/with-html/elements`.  
+
+- The DOM is a tree of nodes (elements, text, comments) that represents the page structure. JavaScript can read and change this tree at runtime.
+- Common operations you'll use:
+  - Select elements: find element you want to read or change.
+    - `document.getElementById('id')`
+    - `document.querySelector('.class')` or `document.querySelectorAll('li')`
+  - Create elements: build new element in JavaScript.
+    - `document.createElement('div')`
+  - Insert elements: add created element to the page.
+    - `parent.appendChild(newElement)`
+  - Update content or attributes:
+    - `element.textContent = 'Hello';`
+    - `element.setAttribute('data-id', '123');`
+    - `element.classList.add('active');`
+  - React to events: make the page respond to clicks, typing, etc.
+    - element.addEventListener('click', () => { ... })
+
+
+Tips for embedding scripts safely:
+
+- Wait for the DOM before selecting nodes. Use `DOMContentLoaded`
+  - `document.addEventListener('DOMContentLoaded', () => { /* your code goes here */ })`
+- Use `console.log()` while learning to inspect elements and values.
+
+
 ---
+
+## Events and Event Handling
+
+- Events are actions like clicks, typing, or page load.
+- You can make your website respond to events.
+  
+Short example: creating a div and a button, and handling the button click
+
+```js
+const box = document.createElement('div');
+box.textContent = 'A JS-created box';
+box.classList.add('example-box');
+document.body.appendChild(box);
+
+const btn = document.createElement('button');
+btn.textContent = 'Toggle highlight';
+document.body.appendChild(btn);
+
+btn.addEventListener('click', () => {
+  box.classList.toggle('highlight');
+});
+```
+
+
 
 ## Practice Exercise
 

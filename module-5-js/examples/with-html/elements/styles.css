@@ -1,21 +1,21 @@
-
 .example-box {
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #ccc;
-  background-color: #f9f9f9;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
 }
 
 .generated-list {
-  margin: 0 0 10px 20px;
+    margin: 0 0 10px 20px;
 }
 
 button.add-button {
-  display: block;
-  margin: 6px 0 20px;
-  padding: 6px 10px;
-  cursor: pointer;
+    display: block;
+    margin: 6px 0 20px;
+    padding: 6px 10px;
+    cursor: pointer;
 }
 
-/* Optional small defaults for the demo */
-body { font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+body {
+    font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+}
